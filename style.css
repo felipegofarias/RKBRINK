@@ -26,7 +26,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin: 2px 0;
     padding: 0;
 }
 
@@ -169,7 +169,7 @@ footer{
 }
 
 .greywrap h2{
-    margin-top: 30px;
+    margin-top: 0px;
     color: #ddd;
     text-shadow: 2px 2px 3px #000;
     margin-left: 15px;
@@ -182,6 +182,19 @@ footer{
     text-shadow: 2px 2px 3px #000;
     text-align: center;
     margin-left: 15px;
+}
+
+.btnsubmit button[type=submit] {
+    border: 0;
+    color: #ECEFF1;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #00695C;
+    text-shadow: none;
+
 }
 
 
@@ -266,6 +279,10 @@ footer{
     
 }
 
+.inputBox .row{
+    width: 103%;
+}
+
 #sobre{
     width: 70%;
     padding: 60px 0;
@@ -347,6 +364,41 @@ footer{
     color: #fff;
 }
 
+.box{
+    background-color: #ECEFF1;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+fieldset{
+    display: block;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content; 
+    border-color: none;
+    
+}
+
+legend {
+    
+    padding-inline-start: 2px;
+    padding-inline-end: 2px ;
+    text-align: center;
+    border: none;
+    
+    
+    padding: 10px;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    
+}
+
+
+
+
 /*media serviços*/
 @media(max-width: 600px){
     .greywrap {
@@ -383,7 +435,7 @@ footer{
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    background-color:#fff59b;
+    background-color:#00695C;
     
     }
     .item{
@@ -424,6 +476,8 @@ footer{
         font-size: 30px;
     }
 
+    
+
     .greywrap p{
         font-size: 20px;
         color: rgb(226, 226, 226);
@@ -442,7 +496,7 @@ footer{
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    background-color:#fff59b;
+    background-color:#00695C;
     
     }
 
@@ -529,7 +583,7 @@ footer{
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
-    background-color:#fff59b;
+    background-color:#00695C;
     }
     
     
@@ -585,7 +639,7 @@ footer{
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
-    background-color:#fff59b;
+    background-color:#00695C;
     }
     
     
@@ -624,7 +678,7 @@ footer{
         font-size: 20px;
         text-transform: uppercase;
         font-weight: 700;
-        background-color:#fff59b;
+        background-color:#00695C;
     
     }
     
